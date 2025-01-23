@@ -8765,10 +8765,10 @@ __metadata:
     "@rocket.chat/icons": "*"
     "@rocket.chat/prettier-config": "*"
     "@rocket.chat/styled": "*"
-    "@rocket.chat/ui-avatar": 10.0.0
-    "@rocket.chat/ui-contexts": 14.0.0
+    "@rocket.chat/ui-avatar": 10.0.1
+    "@rocket.chat/ui-contexts": 14.0.1
     "@rocket.chat/ui-kit": 0.37.0
-    "@rocket.chat/ui-video-conf": 14.0.0
+    "@rocket.chat/ui-video-conf": 14.0.1
     "@tanstack/react-query": "*"
     react: ~17.0.2
     react-dom: "*"
@@ -8853,8 +8853,8 @@ __metadata:
     "@rocket.chat/fuselage-tokens": "*"
     "@rocket.chat/message-parser": 0.31.31
     "@rocket.chat/styled": "*"
-    "@rocket.chat/ui-client": 14.0.0
-    "@rocket.chat/ui-contexts": 14.0.0
+    "@rocket.chat/ui-client": 14.0.1
+    "@rocket.chat/ui-contexts": 14.0.1
     katex: "*"
     react: "*"
   languageName: unknown
@@ -9312,7 +9312,6 @@ __metadata:
     adm-zip: "npm:0.5.16"
     ajv: "npm:^8.17.1"
     ajv-formats: "npm:~3.0.1"
-    apn: "npm:2.2.0"
     archiver: "npm:^7.0.1"
     asterisk-manager: "npm:^0.2.0"
     atlassian-crowd-patched: "npm:^0.5.1"
@@ -10087,7 +10086,7 @@ __metadata:
     typescript: "npm:~5.7.2"
   peerDependencies:
     "@rocket.chat/fuselage": "*"
-    "@rocket.chat/ui-contexts": 14.0.0
+    "@rocket.chat/ui-contexts": 14.0.1
     react: ~17.0.2
   languageName: unknown
   linkType: soft
@@ -10137,8 +10136,8 @@ __metadata:
     "@rocket.chat/fuselage": "*"
     "@rocket.chat/fuselage-hooks": "*"
     "@rocket.chat/icons": "*"
-    "@rocket.chat/ui-avatar": 10.0.0
-    "@rocket.chat/ui-contexts": 14.0.0
+    "@rocket.chat/ui-avatar": 10.0.1
+    "@rocket.chat/ui-contexts": 14.0.1
     react: "*"
     react-i18next: "*"
   languageName: unknown
@@ -10308,8 +10307,8 @@ __metadata:
     "@rocket.chat/fuselage-hooks": "*"
     "@rocket.chat/icons": "*"
     "@rocket.chat/styled": "*"
-    "@rocket.chat/ui-avatar": 10.0.0
-    "@rocket.chat/ui-contexts": 14.0.0
+    "@rocket.chat/ui-avatar": 10.0.1
+    "@rocket.chat/ui-contexts": 14.0.1
     react: ~17.0.2
     react-dom: ^17.0.2
   languageName: unknown
@@ -10365,9 +10364,9 @@ __metadata:
     "@rocket.chat/fuselage-hooks": "*"
     "@rocket.chat/icons": "*"
     "@rocket.chat/styled": "*"
-    "@rocket.chat/ui-avatar": 10.0.0
-    "@rocket.chat/ui-client": 14.0.0
-    "@rocket.chat/ui-contexts": 14.0.0
+    "@rocket.chat/ui-avatar": 10.0.1
+    "@rocket.chat/ui-client": 14.0.1
+    "@rocket.chat/ui-contexts": 14.0.1
     react: ~17.0.2
     react-aria: ~3.23.1
     react-dom: ^17.0.2
@@ -10455,7 +10454,7 @@ __metadata:
   peerDependencies:
     "@rocket.chat/layout": "*"
     "@rocket.chat/tools": 0.2.2
-    "@rocket.chat/ui-contexts": 14.0.0
+    "@rocket.chat/ui-contexts": 14.0.1
     "@tanstack/react-query": "*"
     react: "*"
     react-hook-form: "*"
@@ -14866,19 +14865,6 @@ __metadata:
     normalize-path: "npm:^3.0.0"
     picomatch: "npm:^2.0.4"
   checksum: 10/985163db2292fac9e5a1e072bf99f1b5baccf196e4de25a0b0b81865ebddeb3b3eb4480734ef0a2ac8c002845396b91aa89121f5b84f93981a4658164a9ec6e9
-  languageName: node
-  linkType: hard
-
-"apn@npm:2.2.0":
-  version: 2.2.0
-  resolution: "apn@npm:2.2.0"
-  dependencies:
-    debug: "npm:^3.1.0"
-    http2: "https://github.com/node-apn/node-http2/archive/apn-2.1.4.tar.gz"
-    jsonwebtoken: "npm:^8.1.0"
-    node-forge: "npm:^0.7.1"
-    verror: "npm:^1.10.0"
-  checksum: 10/ae56a44536f972ae5a6a4cc7a4575245159f816e0899e88fd0843da2c3c8ba0e0fb1c25f3528b05bd957ad0d3476b7f3603b783e73d0d9c3e41099c4ae38b868
   languageName: node
   linkType: hard
 
@@ -24308,13 +24294,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"http2@https://github.com/node-apn/node-http2/archive/apn-2.1.4.tar.gz":
-  version: 3.3.6
-  resolution: "http2@https://github.com/node-apn/node-http2/archive/apn-2.1.4.tar.gz"
-  checksum: 10/c8d7cb08a39ee1ebb9bc469da69428de7ce093ef99bf6923a24719cbe5dab3657c34901b78904a714114672ad709aff9245714d28db7a31c9975c1d65e2f29ea
-  languageName: node
-  linkType: hard
-
 "https-browserify@npm:^1.0.0":
   version: 1.0.0
   resolution: "https-browserify@npm:1.0.0"
@@ -27169,7 +27148,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsonwebtoken@npm:^8.1.0, jsonwebtoken@npm:^8.5.1":
+"jsonwebtoken@npm:^8.5.1":
   version: 8.5.1
   resolution: "jsonwebtoken@npm:8.5.1"
   dependencies:
@@ -29722,13 +29701,6 @@ __metadata:
     encoding:
       optional: true
   checksum: 10/b24f8a3dc937f388192e59bcf9d0857d7b6940a2496f328381641cb616efccc9866e89ec43f2ec956bbd6c3d3ee05524ce77fe7b29ccd34692b3a16f237d6676
-  languageName: node
-  linkType: hard
-
-"node-forge@npm:^0.7.1":
-  version: 0.7.6
-  resolution: "node-forge@npm:0.7.6"
-  checksum: 10/281507a6b5ae38bb784d7675787e82f41048a691c7de7dc1334f003043404f86e716c9ce9dbe15b5bfdf3d0bb63d61471a0f65e37d8c78c46e0090d554abe4b2
   languageName: node
   linkType: hard
 
@@ -39460,7 +39432,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"verror@npm:^1.10.0, verror@npm:^1.8.1":
+"verror@npm:^1.8.1":
   version: 1.10.1
   resolution: "verror@npm:1.10.1"
   dependencies:
